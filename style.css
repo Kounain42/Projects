@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    
+}
+body{
+  background-image: url('purple\ background.jpg');
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+    
+background-color:#2a2a68;
+width: 600px;
+height: 700px;
+border-top-left-radius: 10px;
+ border-top-right-radius: 10px;
+ border-bottom-left-radius: 10px;
+ border-bottom-right-radius: 10px;
+
+
+}
+#h1{
+
+    width: 600px;
+    margin-top: 113px;
+    padding: 11px;
+    background-color: #242154;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-family: Arial, sans-serif;
+    height: 72px;
+    padding-top: 20px;
+}
+   
+
+
+ #first,#second,#third,#fourth{
+      
+    width: 375px;
+    margin:19px;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 28px;
+    padding: 24px;
+    border-color: #2a2a68;
+    font-weight: bolder;
+    transition-property: opacity, transform;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+ }
+ #button{
+    float: right;
+    padding: 10px;
+    background-color:green ;
+    border-radius: 10px;
+    margin:22px;
+    width:141px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    margin-top: -36px;
+ }
+ input{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    
+  }
+  #check{
+    margin: 23px;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-left: 19px; 
+    margin-left: 101px;
+  }
+.MyGender{
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  /* margin-right: 288px; */
+  margin-right: 306px;
+  padding: 11px;
+  
+  
+}
+#Female input{
+  margin-left: 35px;
+  
+}
+#male input{
+  margin-left: 23px;
+}
