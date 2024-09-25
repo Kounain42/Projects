@@ -51,3 +51,10 @@ div.input{
     padding-right: 104px;
     padding-left: 38px;
 }
+.check{
+    display: flex;
+    
+}
+#terms{
+    margin-left: 11px;
+}
