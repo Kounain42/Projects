@@ -7,7 +7,7 @@
     <title>Amazon Prime</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet" />
-     <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone.css"> 
+    <link rel="stylesheet" href="phone.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -23,39 +23,50 @@
 
 <body>
     <nav id="navbar">
-        <img src="logo-min-remaster.png" alt="Amazon Prime" />
-        <ul style="padding: 0; margin-top: 30px; margin-left: 20px">
+        <div class="img">
+            <img src="logo-min-remaster.png" alt="Amazon Prime" id="logo-1" style="background-color: #00050d;" />
+            <li id="list-0"><a href="#">Menu </a></li>
+        </div>
+        <ul id="home">
             <li id="list-1"><a href="#">Home </a></li>
             <li id="list-2"><a href="#">Movies</a></li>
             <li id="list-3"><a href="#">Tv Show</a></li>
             <li id="list-4"><a href="#">Live Tv &#169;</a></li>
             <span class="span">|</span><span class="span" id="span">&nbsp;Subscription</span>
         </ul>
-        <div id="profile">
-            <button id="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
+        <div class="navigation">
+            <button id="search"><i class="fa-solid fa-magnifying-glass" style="font-size: 14px;"></i></button>
+            <button id="menu"><img src="bars-solid.svg" alt="" style="color: aliceblue;"></button>
+            <button id="user"><img src="user.svg" alt=""></i></button>
+            <button id="join-prime">Join Prime</button>
         </div>
-        <button id="join-prime">Join Prime</button>
-        <button id="user"><i class="fa-solid fa-user"></i></button>
-        <button id="menu"><i class="fa-solid fa-ellipsis-vertical"></i></button>
     </nav>
     <section id="section-1">
-        <div class="content">
-            <h1>Welcome to Prime Video</h1>
-            <p>
-                Join Prime to watch the latest movies, TV shows and award-winning
-                Amazon Originals
-            </p>
-            <button id="sign-in">Sign in To join Prime</button>
+        <div class="bg-black">
+            <div class="content">
+                <h1>Welcome to Prime Video</h1>
+                <p>
+                    Join Prime to watch the latest movies, TV shows and award-winning
+                    Amazon Originals
+                </p>
+                <button id="sign-in">Sign in To join Prime</button>
+            </div>
         </div>
+        <div class="bg-img"></div>
     </section>
+
     <section id="section-2">
-        <div class="content-1">
-            <h1>Movie rentals on Prime Video</h1>
-            <p>Early Access to new movies, before digital subscription</p>
-            <button id="rent">Rent Now</button>
+        <div class="bg-black1">
+            <div class="content-1">
+                <h1>Movie rentals on Prime Video</h1>
+                <p>
+                    Early Access to new movies, before digital subscription
+                </p>
+                <button id="rent">Rent Now</button>
+            </div>
         </div>
+        </div>
+        <div class="bg-img1"></div>
     </section>
     <div class="div-3">
         <section id="section-3">
@@ -102,3 +113,4 @@
 </body>
 
 </html>
+<!-- <i class="fa-solid fa-user"></i> -->

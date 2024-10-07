@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    flex-direction: column;
+}#navbar ul{    
+    position: relative;
+    }
+#navbar ul li a {
+    color: blue;
+    flex-wrap:wrap;
+    padding: 4px 0px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "ABeeZee", sans-serif;
+}
+.all-img{
+    background-color: aqua;
+}
+#h1{
+    font-size: 1.0rem;
+}
+#list-2,#list-3,#list-4{
+    display: none;
+}
+#navbar img{
+    color: #ffffff;
+    background-color: #010e22;
+    height: 11px;
+}
